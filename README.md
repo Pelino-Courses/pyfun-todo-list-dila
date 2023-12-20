@@ -1,60 +1,25 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/SAcmxFOW)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13268821&assignment_repo_type=AssignmentRepo)
-# PyFun-ToDoList
+## To Do Application 
+This program is a to do application. A user can create tasks, mark them as completed, view all tasks and remove tasks.
 
-### Project Title: Simple Python To-Do List
+**Documentation:**
+**To-Do List Module (`todolist.py`):**
+The following command-line of python program structured with
+'to-dolist.py' which manages the list of tasks using functions by providing a menu to the users.
 
-#### Project Description:
-Create a basic command-line To-Do List application in Python. The application should enable users to add tasks, mark them as completed, view the list, and remove tasks. This project focuses on fundamental Python concepts.
+**Main File (`main.py`):**
 
-#### Project Structure:
-1. **Main File (`main.py`):**
-   - Manages user input and executes To-Do List functionalities.
-   - Offers a simple menu for users to choose actions (add task, mark as completed, view list, remove task, exit).
+ 'main.py' file is the one needed to run the application. It handles the input of the user and also executes todolist functions, allows the users to manage their tasks by either adding tasks, viewing tasks, removing tasks and also exit the program with giving the constructive feedback to the user. 
+ 
+ **Coding Guidelines:**
+ overview of the project:
+  The program is coded and follows in a PEP 8 style guidelines,  contains the comments to explain step by step of the program.
+To run this program, here are the steps:
+1. Clone repository
+2. Run 'python main.py' in terminal then follow the instructions to create and edit a to do list.
 
-2. **To-Do List Module (`todolist.py`):**
-   - Contains functions to manage the list of tasks.
-   - Functions: `add_task`, `mark_completed`, `view_list`, `remove_task`, etc.
-
-#### Instructions for Students:
-1. **Assignment Repo the Repository:**
-   - Accept the assignment, join/create a group to the GitHub Classroom and get a link of the repository.
-
-2. **Coding Guidelines:**
-   - Follow PEP 8 style guide.
-   - Include comments to explain the code.
-
-3. **Implementation:**
-   - Start by implementing the To-Do List functions in the `todolist.py` module.
-   - Collaborate using pair programming techniques and GitHub.
-
-4. **Documentation:**
-   - Include a README.md file explaining how to run the program.
-   - Provide a brief overview of the project and its functionalities.
-
-5. **Submission:**
-   - Submit (by pushing your codes) the project via GitHub Classroom by the specified deadline.
-
-#### Peer-Review Instructions:
-1. **Review Process:**
-   - Add another group (both members of another group of your choice)to your repository as reviewers.
-
-2. **Review Criteria:**
-   - Check if the code follows PEP 8 style guide.
-   - Ensure there are meaningful comments and documentation.
-   - Test the application's functionality and report any issues.
-
-3. **Feedback:**
-   - Provide constructive feedback on code quality and functionality.
-   - Suggest improvements and point out any bugs.
-
-4. **Deadline:**
-   - Complete the peer review by the assigned deadline.
-
-#### Grading:
-- Code Quality: 40%
-- Functionality: 40%
-- Documentation: 20%
-
-## Resources
-[PEP8 CheatSheet](https://cheatography.com/jmds/cheat-sheets/python-pep8-style-guide/)
+### Overview of the functions:
+`add_tasks`: this adds the tasks of the user
+`view_tasks`: allows the user to observe the added tasks which are completed and others that are not completed.
+`mark_completed`: marks a task as completed per user's choice
+`remove_tasks`: this id used to remove or delete unwanted tasks
+`exit`: helps user to exit the program.  
